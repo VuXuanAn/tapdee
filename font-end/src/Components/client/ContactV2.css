@@ -1,0 +1,302 @@
+.imageRetargular {
+    margin: auto;
+    width: 355px;
+    height: 220px;
+    margin-top: 30px;
+    position: relative;
+}
+.imageRetargular .anhBia {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+.avtImg {
+    width: 157px;
+    height: 157px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 135px;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 35%);
+}
+.mt-90 {
+    margin-top: 100px !important;
+    font-weight: bold;
+}
+input {
+    border: none;
+}
+input:focus {
+    outline: none;
+}
+.nameAccount {
+    font-size: 23px !important;
+    font-weight: bold;
+}
+span.update {
+    padding: 5px 10px;
+    background-color: #434343;
+    color: #fafafa;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.socialMedia {
+    width: 355px;
+    margin: auto;
+}
+.iconSocialMedia {
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+    background-size: cover;
+    border-radius: 25px;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 35%);
+    margin: 0px 45px 0px 45px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.empty {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff78;
+    border: 1px dashed #979797;
+    border-radius: 25px;
+}
+.iconSocialMedia > a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/* social media icon */
+.Facebook {
+    background-image: url("../../assets/image/socialMeadia/facebook.png");
+}
+.Gapo {
+    background-image: url("../../assets/image/socialMeadia/G.png");
+}
+.TikTok {
+    background-image: url("../../assets/image/socialMeadia/tiktok.png");
+}
+.Gmail {
+    background-image: url("../../assets/image/socialMeadia/gmail.png");
+}
+.Instagram {
+    background-image: url("../../assets/image/socialMeadia/instagram.png");
+}
+.Lazada {
+    background-image: url("../../assets/image/socialMeadia/lazada.png");
+}
+.Line {
+    background-image: url("../../assets/image/socialMeadia/Line.png");
+}
+.Phone {
+    background-image: url("../../assets/image/socialMeadia/phone.png");
+}
+.Lotus {
+    background-image: url("../../assets/image/socialMeadia/react.png");
+}
+.Shopee {
+    background-image: url("../../assets/image/socialMeadia/shoppe.png");
+}
+.Spotify {
+    background-image: url("../../assets/image/socialMeadia/spotify.png");
+}
+.Talk {
+    background-image: url("../../assets/image/socialMeadia/talk.png");
+}
+.Telegram {
+    background-image: url("../../assets/image/socialMeadia/telegram.png");
+}
+.Tiki {
+    background-image: url("../../assets/image/socialMeadia/tiki.png");
+}
+.Twitter {
+    background-image: url("../../assets/image/socialMeadia/twitter.png");
+}
+.Whatsapp {
+    background-image: url("../../assets/image/socialMeadia/whatsapp.jpg");
+}
+.Youtube {
+    background-image: url("../../assets/image/socialMeadia/youtube.png");
+}
+.Zalo {
+    background-image: url("../../assets/image/socialMeadia/zalo.jpg");
+}
+.Agribank {
+    background-image: url("../../assets//image/logoBank/Agribank.jpg");
+}
+.BIDV {
+    background-image: url("../../assets/image/logoBank/Bidv.jpg");
+}
+.MSB {
+    background-image: url("../../assets/image/logoBank/Msb.jpg");
+}
+.Website {
+    background-image: url("../../assets/image/socialMeadia/web.jpg");
+}
+.PVcomBank {
+    background-image: url("../../assets/image/logoBank/pv.jpg");
+}
+.Techcombank {
+    background-image: url("../../assets/image/logoBank/TECH.jpg");
+}
+.TPBank {
+    background-image: url("../../assets/image/logoBank/tpbank.jpg");
+}
+.VCB {
+    background-image: url("../../assets/image/logoBank/VCB.jpg");
+}
+.VIB {
+    background-image: url("../../assets/image/logoBank/vib.jpg");
+}
+.VietinBank {
+    background-image: url("../../assets/image/logoBank/VIETINBANL.jpg");
+}
+.VPBank {
+    background-image: url("../../assets/image/logoBank/VPBANK.jpg");
+}
+.MOMO {
+    background-image: url("../../assets/image/socialMeadia/MoMo.png");
+}
+.Snapchat {
+    background-image: url("../../assets/image/socialMeadia/snapchat.png");
+}
+span.anticon.anticon-edit,
+span.anticon.anticon-plus {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    font-size: 15px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #096dd9;
+    color: white;
+}
+span.anticon.anticon-plus {
+    background-color: #60a0e5 !important;
+}
+span.anticon.anticon-camera,
+span.anticon.anticon-sync.anticon-spin {
+    position: absolute;
+    top: 255px;
+    left: 217px;
+    font-size: 17px;
+    color: white;
+    border-radius: 50%;
+    background-color: #3b4754;
+    padding: 7px;
+}
+.border-bottom {
+    border-bottom: 1px solid rgb(141, 141, 141);
+}
+.maxwidth {
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+}
+.editName {
+    width: 350px;
+    margin: auto;
+}
+/* chinh sua cho edit des */
+span.ant-input-affix-wrapper.ant-input-affix-wrapper-lg {
+    border: none;
+    text-align: center;
+    outline: none;
+}
+input:focus {
+    outline: none !important;
+}
+.desAccount {
+    padding: 0px 13px;
+}
+.settingIcon {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 5;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    font-size: 20px;
+    padding: 1px 8px 4px 8px;
+}
+.DrawerTop > .ant-drawer-content-wrapper {
+    height: 310px !important;
+}
+.lock {
+    width: 100%;
+    height: 100%;
+    background-image: url("./../../assets/image/lock.jpg");
+    background-size: cover;
+    padding: 0px 30px;
+}
+.lock > div > h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #303030;
+}
+
+/* reponsive */
+@media screen and (min-device-width: 320px) and (max-device-width: 390px) {
+    .imageRetargular {
+        width: 310px;
+        height: 205px;
+    }
+    .avtImg {
+        width: 130px;
+        height: 130px;
+        left: 90px;
+        top: 145px;
+    }
+    span.anticon.anticon-camera,
+    span.anticon.anticon-sync.anticon-spin
+    {
+        top: 242px !important;
+        left: 180px !important;
+    }
+    .iconSocialMedia {
+        width: 75px;
+        height: 75px;
+        margin: 0px 50px 20px 50px;
+    }
+}
+.fa-cog {
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.UIlock {
+    width: 100%;
+    height: 100vh;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url(../../assets/image/bgLock.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.dash {
+    border:1px dashed #979797!important;
+}

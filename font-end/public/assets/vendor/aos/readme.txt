@@ -1,0 +1,1 @@
+thư viện chạy hiệu ứng khi di chuyển trang đến phần tử đó

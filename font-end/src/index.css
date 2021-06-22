@@ -1,0 +1,147 @@
+body,
+input {
+  margin: 0;
+  font-family: "revert";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white !important;
+}
+ul{
+  list-style: none!important;
+  padding-left: 0!important;
+}
+/* set up font-face */
+@font-face {
+  src: url(assets/font/TUV-MONTSERRAT-BOLD.TTF);
+  font-family: montserrat-bold;
+}
+@font-face {
+  src: url(assets/font/TUV-MONTSERRAT-REGULAR.TTF);
+  font-family: montserrat-regular;
+}
+.imageUser {
+  position: absolute;
+  left: 64px;
+  top: -87px;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  margin: auto;
+  z-index: 5;
+  background-color: #4b5552;
+}
+.client {
+  padding-top: 180px;
+}
+.main {
+  position: relative;
+  width: 100%;
+}
+/* 2 khoi nho ben tren  */
+.aQuaterCircleLeft {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  width: 200px;
+  height: 200px;
+  background-color: #e2e1e0;
+  border-radius: 50%;
+}
+.aQuaterCircleRight {
+  position: absolute;
+  top: -150px;
+  right: -150px;
+  width: 300px;
+  height: 300px;
+  background-color: #e2e1e0;
+  border-radius: 50%;
+}
+body {
+  background-color: #dad9d7;
+  font-family:"montserrat-bold" ;
+}
+.row{
+  margin:  0px !important;
+}
+.descreption {
+  width: 256px;
+  color: #4b5552;
+  background-color: #e2e1e0;
+  border-radius: 5px;
+  padding: 45px 10px 10px 10px;
+  position: relative;
+  margin: auto;
+}
+.descreption > h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.descreption > p {
+  font-size: 15px;
+}
+.Login {
+  width: 30%;
+  margin: auto;
+  margin-top: 150px;
+}
+.content {
+  margin-top: 60px;
+}
+.content > .ant-btn-primary {
+  width: 100%;
+  color: #fff;
+  background: #29bb8a !important;
+  border-color: #29bb8a !important;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+.ant-btn-primary {
+  background: #29bb8a !important;
+  border-color: #29bb8a !important;
+}
+
+/* custom bottom */
+input[type="file"] {
+  display: none;
+}
+
+.nameAccount {
+  font-family: montserrat-bold !important;
+  font-size: 31px !important;
+  color: #595959;
+}
+.desAccount {
+  font-family: montserrat-regular !important;
+  font-size: 16px !important;
+  margin-bottom: 5px;
+  color: #595959;
+}
+h2.logo {
+  position: absolute;
+  width: 100%;
+  top: 85px;
+  left: 0;
+  font-size: 36px;
+  font-family: "montserrat-bold";
+  color: white;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.bottom_div {
+  width: 100%;
+  height: 150px;
+}
+
+/* spinner  */
+.spinner{
+  height: 100vh;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.spinner >h2{
+  font-size: 25px!important;
+
+}

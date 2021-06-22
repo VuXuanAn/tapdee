@@ -1,0 +1,137 @@
+.MyAccount {
+}
+.optionAccount{
+    width: 267px;
+}
+.optionAccount > ul {
+    list-style: none;
+    padding-left: 0 !important;
+}
+.optionAccount > ul > li:first-child {
+    margin-top: 20px;
+}
+.optionAccount > ul > li {
+    padding: 20px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "montserrat-bold";
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+.optionAccount > ul > li > i {
+    margin-right: 15px;
+}
+.pt-6 {
+    padding-top: 35px;
+}
+.pt-7 {
+    padding-top: 55px;
+    width: 100%;
+}
+.optionAccount > ul > li:hover {
+    background-color: #434343;
+    color: white;
+}
+.ativeAccount {
+    background-color: #434343;
+    color: white;
+}
+.title img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #000000b3;
+}
+
+/* add user component */
+.addUser {
+    height: 100vh;
+    width: 100%;
+}
+.addUser > .adduserForm {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.adduserForm {
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+.ant-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #434343;
+}
+.greyButton {
+    background-color: #595959 !important;
+    color: white !important;
+    font-size: 15px;
+    font-weight: bold !important;
+}
+.listProduct {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* nav*/
+.navbar {
+    background-color: white;
+    box-shadow: 0px 5px 21px -5px #cdd1e1;
+}
+.nav-menu {
+    width: 100%;
+    padding: 10px 50px;
+}
+.navbar .nav-menu img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.navbar .nav-menu a {
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: montserrat-bold;
+    letter-spacing: 3px;
+}
+.optionAccountTop > ul > li > a{
+    font-size: 15px!important;
+    font-weight: bold;
+    font-family: system-ui!important;
+    letter-spacing: 0!important;
+}
+
+
+/* reponsive nav */
+.optionAccount{
+    display: none;
+}
+@media screen and (min-width: 1200px) {
+    .optionAccount{
+        display: block;
+    }
+    .optionAccountTop{
+        display : none ;
+    }
+
+  }
+  @media screen and (max-width: 1200px) {
+    .optionAccountTop{
+        display : block ;
+    }
+    .anhBiaAdmin{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 770px) {
+    .menu3{
+        display : none ;
+    }
+  }
+  .logoutAdmin {
+    font-size: 16px;
+    color: white;
+}
